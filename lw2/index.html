@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="./index.css">
+    <title>Escape</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navigation header__navigation">
+          <img class="navigation__logo" src="./assets/logo.svg" alt="logo">
+          <ul class="menu">
+              <li class="menu__item">
+                  <a class="link">HOME</a>
+              </li>
+              <li class="menu__item">
+                  <a class="link">CATEGORIES</a>
+              </li>
+              <li class="menu__item">
+                  <a class="link">ABOUT</a>
+              </li>
+              <li class="menu__item">
+                  <a class="link">CONTACT</a>
+              </li>
+          </ul>
+        </nav>
+        <section class="page-info header-content__info">
+          <h1 class="page-title">Let's do it together.</h1>
+          <p class="page-description page-info__description">We travel the world in search of stories. Come along for the ride.</p>
+          <a class="link-button page-info__link">View Latest Posts</a>
+        </section>
+      </div>
+    </header>
+    <div class="container">
+      <ul class="tag-list">
+        <li>
+          <button class="tag-button">Nature</button>
+        </li>
+        <li>
+          <button class="tag-button">Photography</button>
+        </li>
+        <li>
+          <button class="tag-button">Relaxation</button>
+        </li>
+        <li>
+          <button class="tag-button">Vacation</button>
+        </li>
+        <li>
+          <button class="tag-button">Travel</button>
+        </li>
+        <li>
+          <button class="tag-button">Adventure</button>
+        </li>
+      </ul>
+    </div>
+    <div class="post-list-section">
+      <section class="posts">
+        <h3 class="posts__title">Featured Posts</h3>
+        <ul class="posts__list featured-posts">
+          <li 
+            class="post-preview"
+            style="background-image: url(./assets/postImage/the-road-ahead.png)"
+          >
+            <h2 class="post-preview__title">The Road Ahead</h2> 
+            <span class="post-preview__description">The road ahead might be paved - it might not be.</span>
+            <div class="post-preview__author post-author">
+              <div class="post-author__info">
+                <img class="post-author__avatar" src="./assets/avatars/matt-vogels.png" alt="matt-vogels"/>
+                <span class="post-author__name">Mat Vogels</span>
+              </div>
+              <span class="post-author__publish-date">September 25, 2015</span>
+            </div>
+          </li>
+          <li 
+            class="post-preview"
+            style="background-image: url(./assets/postImage/from-top-down.png)"
+          >
+            <div class="post-preview__tag">ADVENTURE</div>
+            <h2 class="post-preview__title">From Top Down</h2> 
+            <span class="post-preview__description">Once a year, go someplace you’ve never been before.</span>
+            <div class="post-preview__author post-author">
+              <div class="post-author__info">
+                <img class="post-author__avatar" src="./assets/avatars/willyam-wong.png" alt="willyam-wong"/>
+                <span class="post-author__name">Mat Vogels</span>
+              </div>
+              <span class="post-author__publish-date">September 25, 2015</span>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="posts">
+        <h3 class="posts__title">Most Recent</h3>
+        <ul class="posts__list recent-posts">
+          <a href="#">
+            <li class="recent-posts__item small-post-preview">
+              <img class="small-post-preview__image"  src="./assets/postImage/still-standing.png" alt="post-bg"/>
+              <div class="small-post-preview__text-content">
+                <h6 class="small-post-preview__title">Still Standing Tall</h6>
+                <span class="small-post-preview__description">Life begins at the end of your comfort zone.</span>
+              </div>
+              <div class="small-post-preview__author post-author">
+                <div class="post-author__info">
+                  <img class="post-author__avatar" src="./assets/avatars/willyam-wong.png" alt="author"/>
+                  <span class="post-author__name">Mat Vogels</span>
+                </div>
+                <span class="post-author__publish-date">9/25/2015</span>
+              </div>
+            </li>
+          </a>
+          <a href="#">
+            <li class="recent-posts__item small-post-preview">
+              <img class="small-post-preview__image"  src="./assets/postImage/sunny-side-up.png" alt="post-bg"/>
+              <div class="small-post-preview__text-content">
+                <h6 class="small-post-preview__title">Sunny Side Up</h6>
+                <span class="small-post-preview__description">No place is ever as bad as they tell you it’s going to be.</span>
+              </div>
+              <div class="small-post-preview__author post-author">
+                <div class="post-author__info">
+                  <img class="post-author__avatar" src="./assets/avatars/matt-vogels.png" alt="matt-vogels"/>
+                  <span class="post-author__name">Mat Vogels</span>
+                </div>
+                <span class="post-author__publish-date">9/25/2015</span>
+              </div>
+            </li>
+          </a>
+          <a href="#">
+            <li class="recent-posts__item small-post-preview">
+              <img class="small-post-preview__image"  src="./assets/postImage/water-falls.png" alt="post-bg"/>
+              <div class="small-post-preview__text-content">
+                <h6 class="small-post-preview__title">Water Falls</h6>
+                <span class="small-post-preview__description">We travel not to escape life, but for life not to escape us.</span>
+              </div>
+              <div class="small-post-preview__author post-author">
+                <div class="post-author__info">
+                  <img class="post-author__avatar" src="./assets/avatars/matt-vogels.png" alt="matt-vogels"/>
+                  <span class="post-author__name">Mat Vogels</span>
+                </div>
+                <span class="post-author__publish-date">9/25/2015</span>
+              </div>
+            </li>
+          </a>
+          <a href="#">
+            <li class="recent-posts__item small-post-preview">
+              <img class="small-post-preview__image"  src="./assets/postImage/through-the-mist.png" alt="post-bg"/>
+              <div class="small-post-preview__text-content">
+                <h6 class="small-post-preview__title">Through the Mist</h6>
+                <span class="small-post-preview__description">Travel makes you see what a tiny place you occupy in the world.</span>
+              </div>
+              <div class="small-post-preview__author post-author">
+                <div class="post-author__info">
+                  <img class="post-author__avatar" src="./assets/avatars/willyam-wong.png" alt="user-avatar"/>
+                  <span class="post-author__name">Willyam Wwong</span>
+                </div>
+                <span class="post-author__publish-date">9/25/2015</span>
+              </div>
+            </li>
+          </a>
+          <a href="#">
+            <li class="recent-posts__item small-post-preview">
+              <img class="small-post-preview__image"  src="./assets/postImage/awaken-early.png" alt="post-bg"/>
+              <div class="small-post-preview__text-content">
+                <h6 class="small-post-preview__title">Awaken Early</h6>
+                <span class="small-post-preview__description">Not all those who wander are lost.</span>
+              </div>
+              <div class="small-post-preview__author post-author">
+                <div class="post-author__info">
+                  <img class="post-author__avatar" src="./assets/avatars/matt-vogels.png" alt="matt-vogels"/>
+                  <span class="post-author__name">Mat Vogels</span>
+                </div>
+                <span class="post-author__publish-date">9/25/2015</span>
+              </div>
+            </li>
+          </a>
+          <a href="#">
+            <li class="recent-posts__item small-post-preview">
+              <img class="small-post-preview__image"  src="./assets/postImage/try-it-always.png" alt="post-bg"/>
+              <div class="small-post-preview__text-content">
+                <h6 class="small-post-preview__title">Try it Always</h6>
+                <span class="small-post-preview__description">The world is a book, and those who do not travel read only one page.</span>
+              </div>
+              <div class="small-post-preview__author post-author">
+                <div class="post-author__info">
+                  <img class="post-author__avatar" src="./assets/avatars/matt-vogels.png" alt="matt-vogels"/>
+                  <span class="post-author__name">Mat Vogels</span>
+                </div>
+                <span class="post-author__publish-date">9/25/2015</span>
+              </div>
+            </li>
+          </a>
+        </ul>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="footer__overlay">
+        <section class="footer__content">
+          <img class="footer__logo" src="./assets/logo.svg"/>
+            <ul class="menu">
+              <li class="menu__item">
+                  <a class="link">HOME</a>
+              </li>
+              <li class="menu__item">
+                  <a class="link">CATEGORIES</a>
+              </li>
+              <li class="menu__item">
+                  <a class="link">ABOUT</a>
+              </li>
+              <li class="menu__item">
+                  <a class="link">CONTACT</a>
+              </li>
+            </ul>
+          </section>
+      </div>        
+  </footer>
+  </body>
+</html>

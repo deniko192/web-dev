@@ -1,0 +1,270 @@
+body, h1, h2, h3, h6{
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  margin:0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: none;
+}
+
+.header {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    center / cover no-repeat url("./assets/header-bg.jpg");
+  height: 500px;
+}
+
+.container {
+  max-width: 940px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header__navigation {
+  padding: 17px 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.navigation__logo {
+  margin-top: 3px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu__item {
+  font: 12px/20px "Oxygen", sans-serif;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header-content__info {
+  margin-top: 110px;
+}
+
+.page-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-title {
+  margin: 0;
+  font: 50px/51px "Lora", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.page-description {
+  font: 17px/20px "Oxygen", sans-serif;
+  color: #ffffffa1;
+}
+
+.page-info__link {
+  margin-top: 11px;
+}
+
+.link-button {
+  font: 13px/20px "Oxygen", sans-serif;
+  padding: 12px 31px;
+  border-radius: 3px;
+  background-color: #dd783f;
+  color: #fff;
+}
+
+.tag-list {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  gap: 21px;
+}
+
+.tag-button {
+  font: 14px/20px "Lora", sans-serif;
+  color: #768088;
+  margin: 0;
+  width: 139px;
+  padding: 13px 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.post-list-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+}
+
+.posts {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 940px;
+}
+
+.posts__title {
+  font: 400 20px/27px "Oxygen";
+  color: #2e2e2e;
+  padding-inline: 14px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #dedede;
+  margin: 0 auto;
+}
+
+.posts__list {
+  margin-top: 23px;
+  display: flex;
+  padding-bottom: 89px;
+}
+
+.featured-posts {
+  gap: 20px;
+}
+
+.post-preview {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-position: center;
+  background-size: cover;
+  width: 460px;
+  height: 280px;
+  border-radius: 3px;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.post-preview__title {
+  font: 400 27px/30px "Lora";
+  color: #fff;
+}
+
+.post-preview__description {
+  font: 400 14px/25px "Oxygen";
+  margin-top: 6px;
+  color: #ffffffB2;
+}
+
+.post-preview__tag {
+  margin-bottom: auto;
+  padding: 6px 9px 7px;
+  font: 12px/13px "Oxygen";
+  color: #fff;
+  background-color: #dd783f;
+  width: fit-content;
+  border-radius: 2px;
+}
+
+.post-preview__author {
+  margin-top: 12px;
+  color: #FFFFFFB2;
+}
+
+.post-author {
+  display: flex;
+  font: 400 12px/35px "Oxygen", sans-serif;
+  justify-content: space-between;
+}
+
+.post-author__info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post-author__avatar {
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+}
+
+.recent-posts {
+  gap: 25px 24px;
+  flex-wrap: wrap;
+}
+
+.small-post-preview {
+  box-shadow: 0px 0px 0px 0px #00000017;
+  background-color: #fff;
+  max-width: 296px;
+}
+
+.small-post-preview__image {
+  width: 296px;
+  height: 150px;
+  border-bottom: #d6d6d6;
+}
+
+.small-post-preview__text-content {
+  box-sizing: border-box;
+  padding: 13px;
+  height: 93px;
+}
+
+.small-post-preview__title {
+  font: 16px/21px "Lora";
+  color: #101315;
+}
+
+.small-post-preview__description {
+  font: 13px/19px "Oxygen";
+  color: #7a7a7a;
+  margin-top: 6px;
+  display: inline-block;
+}
+
+.small-post-preview__author {
+  color: #999999;
+  padding: 7px 12px;
+  border-top: 1px solid #efefef;
+}
+
+.footer {
+  height: 89px;
+  background: center / cover no-repeat url("./assets/footer-bg.jpg"), #4D565D;
+  color: #FFFFFF99;
+}
+
+.footer__overlay {
+  background-color: #232F3899;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  width: 100%;
+  margin-inline: auto;
+}
+
+.footer__logo {
+  flex-shrink: 0;
+}
